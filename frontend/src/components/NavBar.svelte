@@ -6,7 +6,7 @@
 </script>
 
 <Nav>
-    <a slot="left">
+    <a slot="left" class="logo__main">
         ESHAR
     </a>
 
@@ -18,5 +18,10 @@
 <style>
     .cursor-pointer {
         cursor: pointer;
+    }
+    .logo__main {
+        font-size: 4rem;
+        font-weight: bold;
+        color: #41a0a9;
     }
 </style>
