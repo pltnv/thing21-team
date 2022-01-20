@@ -7,7 +7,7 @@
     import {serverURL} from "../constans"
 
     async function getMusics() {
-        const res = await fetch(serverURL + 'musics');
+        const res = await fetch(`${serverURL}musics`);
         const json = await res.json();
         await musics.set(json)
     }
