@@ -37,7 +37,7 @@
                 <PlayIcon/>
             {/if}
         </div>
-        <img src="{music.cover}" alt="">
+        <img src="{music.cover}" alt="Обложка песни">
         <div class="labels">
             <p>{music.label}</p>
             <span>{music.author}</span>
