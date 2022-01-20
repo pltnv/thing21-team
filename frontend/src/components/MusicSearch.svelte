@@ -14,7 +14,6 @@
             const res = await fetch(serverURL + 'music/filter/' + value + '/');
             const json = await res.json();
             musics = json;
-            console.log(json)
         }
 
     }
