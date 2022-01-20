@@ -6,7 +6,6 @@
     import AudioPlayer from "../components/AudioPlayer.svelte"
 
     let music = {}
-
     let audio;
     let paused = true;
     let volume = 1;
@@ -30,8 +29,8 @@
                     <div class="music-information">
                         <img class="music-cover" src="{$musicPlayer.cover}" alt="{music.label}">
                         <div class="labels">
-                            <h3>{$musicPlayer.label}</h3>
-                            <p>
+                            <h3 class="labels-label">{$musicPlayer.label}</h3>
+                            <p class="labels-author>
                                 {$musicPlayer.author}
                             </p>
                         </div>
@@ -98,12 +97,12 @@
         justify-content: center;
     }
 
-    .labels h3 {
+    .labels-label {
         font-weight: 600;
         margin: 0;
     }
 
-    .labels p {
+    .labels-author {
         font-size: 0.8em;
         color: rgb(99, 99, 99);
         margin: 0;
