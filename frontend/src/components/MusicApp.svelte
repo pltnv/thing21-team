@@ -34,7 +34,7 @@
     </Row>
     <Row>
         <Col>
-            <h3>Поиск</h3>
+            <span class="search__sign">Поиск</h3>
         </Col>
     </Row>
     <Row>
@@ -62,6 +62,13 @@
     .music-card-block {
         display: flex;
         flex-wrap: wrap;
+    }
+    .search__sign{
+        font-size: 1.5em;
+        font-weight: 600;
+        margin: 0;
+        color: black;
+        opacity: 50%;
     }
 </style>
 
