@@ -29,4 +29,7 @@
 		padding-bottom: 9em;
 		/*height: 100%;*/
 	}
+	.container{
+	    font-size: 2rem;
+	}
 </style>
